@@ -167,6 +167,8 @@
     </div>
   </div>
   <script>
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
     const slides = document.querySelectorAll('.slide');
     const section = document.querySelector('.highlight-section');
     let ticking = false;
